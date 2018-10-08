@@ -10,7 +10,7 @@ public interface SeckillDao {
      * 减库存
      * @param seckillId
      * @param killTime
-     * @return
+     * @return 如果影响行数=1，表示更新的记录行数
      */
     int reduceNumber(long seckillId, Date killTime);
 
@@ -26,4 +26,5 @@ public interface SeckillDao {
      * @return
      */
     List<Seckill> queryAll(int offset, int limit);
+
 }

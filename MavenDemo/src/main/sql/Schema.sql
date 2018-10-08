@@ -1,4 +1,4 @@
-/* 秒杀库存表
+/* 秒杀库存表 key对应的是一个索引
 */
 CREATE TABLE `seckill` (
   `seckill_id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '商品库存ID',
